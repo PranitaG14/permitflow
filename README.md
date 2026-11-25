@@ -2,9 +2,6 @@
 
 A municipal permit workflow where illegal state transitions are rejected by the database, not by a service layer that some other code path will eventually bypass.
 
-[![CI and Pages](https://github.com/SlateGitOrg/permitflow/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SlateGitOrg/permitflow/actions/workflows/ci.yml)
-[Live demo](https://slategitorg.github.io/permitflow/)
-
 ![Permit Flow desktop](docs/assets/deployed-desktop.png)
 
 ## Why
@@ -44,7 +41,7 @@ flowchart LR
 Prerequisites: Node.js 22.6 or newer (24 recommended; CI uses 24). There are no dependencies and no build step, because TypeScript runs through Node's type stripping.
 
 ```bash
-git clone https://github.com/SlateGitOrg/permitflow.git
+git clone https://github.com/PranitaG14/permitflow.git
 cd permitflow
 npm test        # enforcement suite + site tests
 npm run demo    # the walkthrough below
@@ -123,10 +120,3 @@ docs/                   architecture notes and screenshots
 ## License
 
 MIT - see [LICENSE](LICENSE).
-
-## Maintainer
-
-Dev Bhatt maintains permitflow, focusing on reliable data workflows, controls and automation. He has over six years of professional experience building automated pipelines, analytics and reconciliation systems.
-
-- LinkedIn: [linkedin.com/in/dev-bhatt27](https://linkedin.com/in/dev-bhatt27)
-- Email: [devbhattwork27@gmail.com](mailto:devbhattwork27@gmail.com)
